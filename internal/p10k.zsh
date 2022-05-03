@@ -8333,7 +8333,7 @@ function _p9k_init_cacheable() {
 
   if [[ $_POWERLEVEL9K_TRANSIENT_PROMPT != off ]]; then
     local sep=$'\1'
-    _p9k_transient_prompt='%? [%F{red}%n%f %F{white}@%f %F{magenta}%m%f] %F{cyan}%d%f %F{yellow}%W %*%f%b%k%s%u%F{%(?.'$sep
+    _p9k_transient_prompt='%F{yellow1}%?%f [%F{red}%n%f %F{white}@%f %F{magenta}%m%f] %F{cyan}%d%f %F{yellow}%W %*%f%b%k%s%u%F{%(?.'$sep
     _p9k_color prompt_prompt_char_OK_VIINS FOREGROUND 76
     _p9k_foreground $_p9k__ret
     _p9k_transient_prompt+=$_p9k__ret
